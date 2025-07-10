@@ -1,0 +1,340 @@
+<html data-wf-page="684037999cb0988abe5c56b6" data-wf-site="684037999cb0988abe5c563b" lang="en"><head>
+  <meta charset="utf-8">
+  <title>Golden Pups - Premium Puppy Adoption</title>
+  <meta content="Golden Pups – Find your perfect furry companion from our selection of premium puppies. Family-owned and operated with over 30 loving families committed to raising the happiest and healthiest puppies." name="description">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <link href="css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="css/webflow.css" rel="stylesheet" type="text/css">
+  <link href="css/golden-pups.webflow.css" rel="stylesheet" type="text/css">
+  <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="images/webclip.png" rel="apple-touch-icon">
+  <style>
+    .mobile-nav-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: 998;
+      opacity: 0;
+      visibility: hidden;
+      transition: all 0.3s ease;
+      display: none;
+    }
+
+    .mobile-nav-overlay.active {
+      opacity: 1;
+      visibility: visible;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div class="page-wrapper">
+    <div class="main-wrapper">
+      <!-- Mobile Navigation Overlay -->
+      <div class="mobile-nav-overlay" id="mobileNavOverlay"></div>
+      
+      <!-- Mobile Navigation Sidebar -->
+      <div class="mobile-nav-sidebar" id="mobileNavSidebar">
+        <div class="mobile-nav-header">
+          <div class="mobile-nav-logo">
+            <img src="images/puppy-logo.png" alt="Golden Pups">
+            <div class="mobile-nav-brand">Golden Pups</div>
+          </div>
+          <button class="mobile-nav-close" id="mobileNavClose">×</button>
+        </div>
+        
+        <div class="mobile-nav-section">
+          <h3 class="mobile-nav-section-title">Navigation</h3>
+          <ul class="mobile-nav-menu">
+            <li class="mobile-nav-item">
+              <a href="#" class="mobile-nav-link active">
+                <div class="mobile-nav-icon">🏠</div>
+                Home
+              </a>
+            </li>
+            <li class="mobile-nav-item">
+              <a href="#" class="mobile-nav-link">
+                <div class="mobile-nav-icon">🐕</div>
+                Puppies
+              </a>
+            </li>
+            <li class="mobile-nav-item">
+              <a href="#" class="mobile-nav-link">
+                <div class="mobile-nav-icon">ℹ️</div>
+                About
+              </a>
+            </li>
+          </ul>
+        </div>
+        
+        <div class="mobile-nav-section">
+          <h3 class="mobile-nav-section-title">Contact</h3>
+          <ul class="mobile-nav-menu">
+            <li class="mobile-nav-item">
+              <a href="#" class="mobile-nav-link">
+                <div class="mobile-nav-icon">📞</div>
+                Contact Us
+              </a>
+            </li>
+            <li class="mobile-nav-item">
+              <a href="#" class="mobile-nav-link">
+                <div class="mobile-nav-icon">💬</div>
+                Chat
+              </a>
+            </li>
+          </ul>
+        </div>
+        
+        <div class="mobile-nav-button">
+          <a href="#" class="primary-btn">
+            <div class="primary-text">Get Started</div>
+            <div class="primary-abs"></div>
+          </a>
+        </div>
+      </div>
+
+      <section class="hero-section">
+        <div data-poster-url="videos/7684002-hd_1920_1080_25fps-poster-00001.jpg" data-video-urls="videos/7684002-hd_1920_1080_25fps-transcode.mp4,videos/7684002-hd_1920_1080_25fps-transcode.webm" data-autoplay="true" data-loop="true" data-wf-ignore="true" class="background-videos w-background-video w-background-video-atom">
+          <video id="hero-video" autoplay="" loop="" style="background-image:url(&quot;videos/7684002-hd_1920_1080_25fps-poster-00001.jpg&quot;)" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover">
+            <source src="videos/7684002-hd_1920_1080_25fps-transcode.mp4" data-wf-ignore="true">
+            <source src="videos/7684002-hd_1920_1080_25fps-transcode.webm" data-wf-ignore="true">
+          </video>
+        </div>
+        
+        <div class="navbar home-one">
+          <div class="container second-container">
+            <div class="navbar-wrapper">
+              <a href="#" class="navbar-brand">
+                <img src="images/puppy-logo.png" loading="lazy" alt="Golden Pups Logo" class="image-2">
+              </a>
+              
+              <!-- Desktop Navigation - Only visible on desktop -->
+              <div class="nav-menu-wrapper">
+                <nav class="nav-menu">
+                  <a href="#" class="nav-link">Puppies</a>
+                  <a href="#" class="nav-link">About</a>
+                  <a href="#" class="nav-link w--current">Contact Us</a>
+                </nav>
+              </div>
+              
+              <!-- Mobile Hamburger - Only visible on mobile -->
+              <div class="hamburger-tablet">
+                <button class="menu-button" id="mobileMenuToggle" aria-label="Toggle mobile menu">
+                  <div class="hamburger-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="header">
+          <div class="padding-global">
+            <div class="container header-container">
+              <div class="header-content">
+                <div class="hero-title">
+                  <h1 class="heading">Say hello to the Golden PUPS</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section class="content-section">
+        <div class="main-section">
+          <div class="main-container centre">
+            <div class="header-wrap-centre">
+              <h2 class="h2">Welcome to Golden Pups</h2>
+              <p class="paragraph-3">Find your perfect furry companion from our selection of premium puppies. Family-owned and operated with over 30 loving families committed to raising the happiest and healthiest puppies.</p>
+            </div>
+            <div class="_1-3-grid">
+              <div class="content-wrap-icons">
+                <h3 class="h3">Premium Quality</h3>
+                <p class="paragraph-3">All our puppies come from carefully selected breeding lines with health certifications and genetic testing.</p>
+              </div>
+              <div class="content-wrap-icons">
+                <h3 class="h3">Family Raised</h3>
+                <p class="paragraph-3">Every puppy is raised in a loving family environment, ensuring proper socialization and temperament.</p>
+              </div>
+              <div class="content-wrap-icons">
+                <h3 class="h3">Lifetime Support</h3>
+                <p class="paragraph-3">We provide ongoing support and guidance throughout your puppy's life, from training tips to health advice.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section class="seckky doo">
+        <div class="content_wrapper">
+          <div class="main-container centre">
+            <h2 class="section_title">Featured Puppies</h2>
+            <div class="spacing_48"></div>
+            <div class="w-layout-grid blog_grid">
+        <a id="w-node-_438d2815-e1c4-4ec1-40f1-d1d91632fd5b-be5c56c0" href="products/product-page.html" class="product_item w-inline-block">
+          <div data-w-id="438d2815-e1c4-4ec1-40f1-d1d91632fd5c" style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;" class="product_image_wrapper"><img sizes="(max-width: 1024px) 100vw, 1024px" srcset="images/Fletcher919185.21-2_1024x-p-500.webp 500w, images/Fletcher919185.21-2_1024x-p-800.webp 800w, images/Fletcher919185.21-2_1024x.webp 1024w" alt="" src="images/Fletcher919185.21-2_1024x.webp" loading="eager" class="product_image">
+            <div class="discount_tag">Fletcher</div>
+          </div>
+          <div class="spacing_16"></div>
+          <div class="font_weight_bold">$2,300</div>
+          <div class="spacing_4"></div>
+          <p class="text_color_grey">Brown Male Teacup-Toy Poodle</p>
+        </a>
+        <a id="w-node-_438d2815-e1c4-4ec1-40f1-d1d91632fd66-be5c56c0" href="products/product-page-conan.html" class="product_item w-inline-block">
+          <div style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;" class="product_image_wrapper"><img sizes="(max-width: 1024px) 100vw, 1024px" srcset="images/Conan193895.21-1_1024x-p-500.webp 500w, images/Conan193895.21-1_1024x-p-800.webp 800w, images/Conan193895.21-1_1024x.webp 1024w" alt="" src="images/Conan193895.21-1_1024x.webp" loading="eager" class="product_image">
+            <div class="discount_tag">Conan</div>
+          </div>
+          <div class="spacing_16"></div>
+          <div class="font_weight_bold"><strong>$1,605.00</strong></div>
+          <div class="spacing_4"></div>
+          <p class="text_color_grey">Male Teacup-Toy Poodle</p>
+        </a>
+        <a id="w-node-_438d2815-e1c4-4ec1-40f1-d1d91632fd72-be5c56c0" href="products/product-page-creed.html" class="product_item w-inline-block">
+          <div style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;" class="product_image_wrapper"><img sizes="(max-width: 1024px) 100vw, 1024px" srcset="images/Creed918904.2-2_1024x-p-500.webp 500w, images/Creed918904.2-2_1024x-p-800.webp 800w, images/Creed918904.2-2_1024x.webp 1024w" alt="" src="images/Creed918904.2-2_1024x.webp" loading="eager" class="product_image">
+            <div class="discount_tag">Creed</div>
+          </div>
+          <div class="spacing_16"></div>
+          <div class="font_weight_bold">$700</div>
+          <div class="spacing_4"></div>
+          <p class="text_color_grey">Male Teacup Havanese<br></p>
+        </a>
+        <a id="w-node-_438d2815-e1c4-4ec1-40f1-d1d91632fd7e-be5c56c0" href="products/product-page-barney.html" class="product_item w-inline-block">
+          <div style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;" class="product_image_wrapper"><img sizes="(max-width: 1024px) 100vw, 1024px" srcset="images/Barney622864.3-2_1024x-p-500.webp 500w, images/Barney622864.3-2_1024x-p-800.webp 800w, images/Barney622864.3-2_1024x.webp 1024w" alt="" src="images/Barney622864.3-2_1024x.webp" loading="eager" class="product_image">
+            <div class="discount_tag">Barney </div>
+          </div>
+          <div class="spacing_16"></div>
+          <div class="font_weight_bold">$830</div>
+          <div class="spacing_4"></div>
+          <p class="text_color_grey">Male Teacup Pomeranian</p>
+        </a>
+        <a id="w-node-_5d49cb94-9a56-7175-36db-4bc4191062b7-be5c56c0" href="products/product-page-tug.html" class="product_item w-inline-block">
+          <div style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;" class="product_image_wrapper"><img sizes="(max-width: 1024px) 100vw, 1024px" srcset="images/IMG_3242_67742215-3a93-4244-8d27-e396a8636c5e_1024x-p-500.webp 500w, images/IMG_3242_67742215-3a93-4244-8d27-e396a8636c5e_1024x-p-800.webp 800w, images/IMG_3242_67742215-3a93-4244-8d27-e396a8636c5e_1024x.webp 1024w" alt="" src="images/IMG_3242_67742215-3a93-4244-8d27-e396a8636c5e_1024x.webp" loading="eager" class="product_image">
+            <div class="discount_tag">Tug</div>
+          </div>
+          <div class="spacing_16"></div>
+          <div class="font_weight_bold">$870</div>
+          <div class="spacing_4"></div>
+          <p class="text_color_grey">Male Teacup Pomeranian</p>
+        </a>
+        <a id="w-node-d4c9686b-6a54-7dd1-83eb-e5ce90e1cbe6-be5c56c0" href="products/product-page-julia.html" class="product_item w-inline-block">
+          <div style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;" class="product_image_wrapper"><img sizes="(max-width: 1024px) 100vw, 1024px" srcset="images/IMG_3276_266b3477-8aa8-488e-8cdc-26dd8234bc5b_1024x-p-500.webp 500w, images/IMG_3276_266b3477-8aa8-488e-8cdc-26dd8234bc5b_1024x-p-800.webp 800w, images/IMG_3276_266b3477-8aa8-488e-8cdc-26dd8234bc5b_1024x.webp 1024w" alt="" src="images/IMG_3276_266b3477-8aa8-488e-8cdc-26dd8234bc5b_1024x.webp" loading="eager" class="product_image">
+            <div class="discount_tag">Julia </div>
+          </div>
+          <div class="spacing_16"></div>
+          <div class="font_weight_bold">$980</div>
+          <div class="spacing_4"></div>
+          <p class="text_color_grey">Female Teacup Pomeranian</p>
+        </a>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      </div>
+            <div class="spacing_48"></div>
+            <a href="#" class="button-2 background_white">View All Puppies</a>
+          </div>
+        </div>
+      </section>
+      
+      <section class="cta-section">
+        <div class="container-2">
+          <div class="cta-grid">
+            <h2 class="heading-1 white">Ready to find your perfect companion?</h2>
+            <a href="#" class="button-4 hero">Get Started Today</a>
+          </div>
+        </div>
+      </section>
+      
+      <section class="footer-section">
+        <div class="container-2">
+          <div class="footer-grid-2">
+            <p class="body-text light">© 2025 Golden Pups. All rights reserved. | <a href="#" class="link">Privacy Policy</a> | <a href="#" class="link">Terms of Service</a></p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <script>
+    // Mobile Navigation Toggle
+    const mobileMenuToggle = document.getElementById('mobileMenuToggle');
+    const mobileNavSidebar = document.getElementById('mobileNavSidebar');
+    const mobileNavOverlay = document.getElementById('mobileNavOverlay');
+    const mobileNavClose = document.getElementById('mobileNavClose');
+
+    function openMobileNav() {
+      mobileNavSidebar.classList.add('active');
+      mobileNavOverlay.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeMobileNav() {
+      mobileNavSidebar.classList.remove('active');
+      mobileNavOverlay.classList.remove('active');
+      document.body.style.overflow = '';
+    }
+
+    if (mobileMenuToggle) {
+      mobileMenuToggle.addEventListener('click', openMobileNav);
+    }
+    
+    if (mobileNavClose) {
+      mobileNavClose.addEventListener('click', closeMobileNav);
+    }
+    
+    if (mobileNavOverlay) {
+      mobileNavOverlay.addEventListener('click', closeMobileNav);
+    }
+
+    // Close mobile nav when clicking on nav links
+    const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
+    mobileNavLinks.forEach(link => {
+      link.addEventListener('click', closeMobileNav);
+    });
+
+    // Close mobile nav on escape key
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        closeMobileNav();
+      }
+    });
+
+    // Prevent body scroll when mobile nav is open
+    function toggleBodyScroll(disable) {
+      if (disable) {
+        document.body.style.overflow = 'hidden';
+      } else {
+        document.body.style.overflow = '';
+      }
+    }
+  </script>
+
+
+</body></html>
